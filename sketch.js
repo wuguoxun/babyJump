@@ -16,6 +16,8 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  textSize(64);
+textAlign(CENTER, CENTER);
   baby = new Baby();
 }
 
@@ -40,9 +42,8 @@ function draw() {
     s.show();
     s.show2();
     if (baby.hits(s)) {
-      textSize(64);
       fill(255, 30, 53);
-      text('game over', width / 3, height / 2);
+      text('GAME OVER',width/2,height/2);
       noLoop();
     }
   }
