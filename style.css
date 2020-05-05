@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  /* background-image: linear-gradient(to right, red , yellow); */
   margin: 100px auto 0 auto;
   width: 80%;
   text-align: center;
